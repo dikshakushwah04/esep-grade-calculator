@@ -77,7 +77,6 @@ func (gc *GradeCalculator) AddGrade(name string, grade int, gradeType GradeType)
 	}
 }
 
-
 func (gc *GradeCalculator) calculateNumericalGrade() int {
 	assignment_average := computeAverage(gc.assignments)
 	exam_average := computeAverage(gc.exams)
